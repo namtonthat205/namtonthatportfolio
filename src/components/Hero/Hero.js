@@ -12,7 +12,8 @@ const Hero = (props) => (
           Nam Tonthat <br />
         </SectionTitle>
         <SectionText>
-         I am a second year Computer Science student at the University of Nottingham, with a strong passion for Artificial Intelligence and Software Engineering. What drives me is my ambition to create and develop software that addresses some of the world’s toughest and most critical challenges, making a meaningful impact on society.
+         I am a second year Computer Science student at the University of Nottingham, with a strong passion for Artificial Intelligence and Software Engineering. <br/> <br/>
+         What drives me is my ambition to create and develop software that addresses some of the world’s toughest and most critical challenges, making a meaningful impact on society.
         </SectionText>
       </LeftSection>
     </Section>
