@@ -4,7 +4,7 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { number: 4000, text: 'Downloads recevied for a game mod'},
+  { number: 4000, text: 'Downloads recevied worldwide', description : "Developed and deployed custom Minecraft mods in Java, that adds new weapons, armour, and game mechanics to enhance users’ experience"},
 ];
 
 const Acomplishments = () => (
@@ -13,8 +13,9 @@ const Acomplishments = () => (
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
-          <BoxNum>{`${card.number}+`}</BoxNum>
-          <BoxText>{card.text}</BoxText>
+          <BoxNum>{`${card.number}+ Downloads received worldwide`}</BoxNum>
+          <br/>
+          <BoxText>{card.description}</BoxText>
         </Box>
       ))}
     </Boxes>
